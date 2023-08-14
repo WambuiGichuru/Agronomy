@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* Global Styles */
+body {
+
+    background-color: #33483c;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bodoni Moda', sans-serif;
+    color: #EDEEE9;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    color: #EDEEE9;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Syne', sans-serif;
+    color: #EDEEE9;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Common Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Syne', sans-serif;
+    background-color: #33483c;
+    color: #33483c;
+}
+
+h1 {
+    font-family: 'Bodoni Moda', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Topstrip Division Styles (Keeping this section intact as requested) */
+.topstrip {
+    height: 50px;
+    background-color: #33483c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.topstrip img {
+    height: 50px;
+}
+
+.topstrip .navigation {
+    margin-left: auto;
+}
+
+.topstrip .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topstrip .navigation li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.topstrip .navigation li:first-child {
+    margin-left: 0;
+}
+
+.topstrip .navigation a {
+    color: #EDEEE9;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.topstrip .navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Page Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgb(221, 212, 186); /* Text color for the heading */
+}
+
+form {
+    background-color: rgb(221, 212, 186);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #33483c; /* Text color for labels */
+    display: auto;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+    border: 1px solid #33483c;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    z-index: 2;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #33483c;
+}
+
+.textarea-group {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+}
+
+.textarea-wrapper {
+    position: relative;
+}
+
+input[type="submit"] {
+    background-color: #33483c;
+    color: rgb(221, 212, 186); /* Text color for the button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #234129; /* Darker color on hover */
+}
+.contact-form {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.contact-image {
+    flex: 1;
+    position: relative;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 400px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EDEEE9;
+    padding: 20px;
+}
+
+.image-overlay h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.image-overlay p {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
